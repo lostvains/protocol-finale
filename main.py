@@ -7,7 +7,7 @@ def typing(sentence: str, delay: float) -> None:
         sleep(delay)
     return print()
 
-typing('안녕하세요, 저 도훈이에요.', 0.1)
+typing('안녕하세요, 저 --이에요.', 0.1)
 typing('이 메시지는 사전에 작성된 메시지에요.', 0.1)
 typing('', 0)
 typing('만약 이 메시지가 표시되었다면, 안타깝지만,', 0.1)
